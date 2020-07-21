@@ -1,0 +1,72 @@
+.header_link
+{
+    color: dimgray;
+    text-decoration: none;
+    line-height: 30px;
+}
+.header_home
+{
+    height: 30px;
+    margin-right: 5%;
+    padding-left: 3%;
+    width: 15%;
+    border-right: 1px solid white;
+    display: inline-block;
+    min-width: 100px;
+}
+
+.header_part
+{
+    height: 30px;
+    width: 15%;
+    border-right: 1px solid white;
+    display: inline-block;
+    text-decoration: none;
+    min-width: 130px;
+    text-align: center;
+}
+@media all and (orientation: landscape)
+{
+    .header_home
+    {
+        font-size: 20px;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .header_part
+    {
+        font-size: 20px;
+        cursor: pointer;
+        text-align: center;
+    }
+}
+@media all and (orientation: portrait)
+{
+    .header_home
+    {
+        font-size: 20px;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .header_part
+    {
+        font-size: 20px;
+        cursor: pointer;
+        text-align: center;
+    }
+}
+.header
+{
+    position: sticky;
+    top:0;
+    background-color: lightgray;
+    border-bottom-left-radius: 10px;
+    height: 30px;
+}
+
+body
+{
+    margin: 0;
+}
